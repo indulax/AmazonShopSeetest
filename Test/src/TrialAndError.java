@@ -42,6 +42,7 @@ public class TrialAndError {
 		File file = new File("C:\\Users\\SAIKARTHICK\\Desktop\\Automation\\Assignment.txt");
 
 		BufferedReader br = new BufferedReader(new FileReader(file));
+		System.out.println("deleted github desktop");
 
 		String st;
 		while ((st = br.readLine()) != null)
